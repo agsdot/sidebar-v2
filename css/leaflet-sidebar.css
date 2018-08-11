@@ -14,13 +14,13 @@
       transition: width 500ms; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebar {
-      width: 305px; } }
+      width: 505px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar {
-      width: 390px; } }
+      width: 590px; } }
   @media (min-width: 1200px) {
     .sidebar {
-      width: 460px; } }
+      width: 660px; } }
 
 .sidebar-left {
   left: 0; }
@@ -105,13 +105,13 @@
     display: block; }
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebar-pane {
-      min-width: 265px; } }
+      min-width: 465px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar-pane {
-      min-width: 350px; } }
+      min-width: 550px; } }
   @media (min-width: 1200px) {
     .sidebar-pane {
-      min-width: 420px; } }
+      min-width: 620px; } }
 
 .sidebar-header {
   margin: -10px -20px 0;
@@ -165,15 +165,15 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar-left ~ .sidebar-map .leaflet-left {
-    left: 315px; } }
+    left: 515px; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .sidebar-left ~ .sidebar-map .leaflet-left {
-    left: 400px; } }
+    left: 600px; } }
 
 @media (min-width: 1200px) {
   .sidebar-left ~ .sidebar-map .leaflet-left {
-    left: 470px; } }
+    left: 670px; } }
 
 @media (min-width: 768px) {
   .sidebar-left.collapsed ~ .sidebar-map .leaflet-left {
@@ -185,15 +185,15 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar-right ~ .sidebar-map .leaflet-right {
-    right: 315px; } }
+    right: 515px; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .sidebar-right ~ .sidebar-map .leaflet-right {
-    right: 400px; } }
+    right: 600px; } }
 
 @media (min-width: 1200px) {
   .sidebar-right ~ .sidebar-map .leaflet-right {
-    right: 470px; } }
+    right: 670px; } }
 
 @media (min-width: 768px) {
   .sidebar-right.collapsed ~ .sidebar-map .leaflet-right {
