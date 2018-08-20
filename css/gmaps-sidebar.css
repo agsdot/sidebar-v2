@@ -14,13 +14,13 @@
       transition: width 500ms; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebar {
-      width: 505px; } }
+      width: 605px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar {
-      width: 590px; } }
+      width: 690px; } }
   @media (min-width: 1200px) {
     .sidebar {
-      width: 660px; } }
+      width: 760px; } }
 
 .sidebar-left {
   left: 0; }
@@ -105,13 +105,13 @@
     display: block; }
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebar-pane {
-      min-width: 465px; } }
+      min-width: 565px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar-pane {
-      min-width: 550px; } }
+      min-width: 650px; } }
   @media (min-width: 1200px) {
     .sidebar-pane {
-      min-width: 620px; } }
+      min-width: 720px; } }
 
 .sidebar-header {
   margin: -10px -20px 0;
@@ -166,15 +166,15 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar-left ~ .sidebar-map .gm-style > div.gmnoprint[style*="left: 0px"] {
-    margin-left: 525px !important; } }
+    margin-left: 625px !important; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .sidebar-left ~ .sidebar-map .gm-style > div.gmnoprint[style*="left: 0px"] {
-    margin-left: 610px !important; } }
+    margin-left: 710px !important; } }
 
 @media (min-width: 1200px) {
   .sidebar-left ~ .sidebar-map .gm-style > div.gmnoprint[style*="left: 0px"] {
-    margin-left: 680px !important; } }
+    margin-left: 780px !important; } }
 
 @media (min-width: 768px) {
   .sidebar-left.collapsed ~ .sidebar-map .gm-style > div.gmnoprint[style*="left: 0px"] {
@@ -190,15 +190,15 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar-right ~ .sidebar-map .gm-style > div.gmnoprint[style*="right: 28px"] {
-    margin-right: 525px !important; } }
+    margin-right: 625px !important; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .sidebar-right ~ .sidebar-map .gm-style > div.gmnoprint[style*="right: 28px"] {
-    margin-right: 610px !important; } }
+    margin-right: 710px !important; } }
 
 @media (min-width: 1200px) {
   .sidebar-right ~ .sidebar-map .gm-style > div.gmnoprint[style*="right: 28px"] {
-    margin-right: 680px !important; } }
+    margin-right: 780px !important; } }
 
 @media (min-width: 768px) {
   .sidebar-right.collapsed ~ .sidebar-map .gm-style > div.gmnoprint[style*="right: 28px"] {

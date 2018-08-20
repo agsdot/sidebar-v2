@@ -14,13 +14,13 @@
       transition: width 500ms; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebar {
-      width: 505px; } }
+      width: 605px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar {
-      width: 590px; } }
+      width: 690px; } }
   @media (min-width: 1200px) {
     .sidebar {
-      width: 660px; } }
+      width: 760px; } }
 
 .sidebar-left {
   left: 0; }
@@ -105,13 +105,13 @@
     display: block; }
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebar-pane {
-      min-width: 465px; } }
+      min-width: 565px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar-pane {
-      min-width: 550px; } }
+      min-width: 650px; } }
   @media (min-width: 1200px) {
     .sidebar-pane {
-      min-width: 620px; } }
+      min-width: 720px; } }
 
 .sidebar-header {
   margin: -10px -20px 0;
@@ -171,15 +171,15 @@
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebar-left ~ .sidebar-map .olControlZoom,
     .sidebar-left ~ .sidebar-map .olScaleLine {
-      margin-left: 519px; } }
+      margin-left: 619px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar-left ~ .sidebar-map .olControlZoom,
     .sidebar-left ~ .sidebar-map .olScaleLine {
-      margin-left: 604px; } }
+      margin-left: 704px; } }
   @media (min-width: 1200px) {
     .sidebar-left ~ .sidebar-map .olControlZoom,
     .sidebar-left ~ .sidebar-map .olScaleLine {
-      margin-left: 674px; } }
+      margin-left: 774px; } }
 
 @media (min-width: 768px) {
   .sidebar-left.collapsed ~ .sidebar-map .olControlZoom,
@@ -199,17 +199,17 @@
     .sidebar-right ~ .sidebar-map .olControlAttribution,
     .sidebar-right ~ .sidebar-map .olControlPermalink,
     .sidebar-right ~ .sidebar-map .olControlMousePosition {
-      margin-right: 519px; } }
+      margin-right: 619px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar-right ~ .sidebar-map .olControlAttribution,
     .sidebar-right ~ .sidebar-map .olControlPermalink,
     .sidebar-right ~ .sidebar-map .olControlMousePosition {
-      margin-right: 604px; } }
+      margin-right: 704px; } }
   @media (min-width: 1200px) {
     .sidebar-right ~ .sidebar-map .olControlAttribution,
     .sidebar-right ~ .sidebar-map .olControlPermalink,
     .sidebar-right ~ .sidebar-map .olControlMousePosition {
-      margin-right: 674px; } }
+      margin-right: 774px; } }
 
 @media (min-width: 768px) {
   .sidebar-right.collapsed ~ .sidebar-map .olControlAttribution,
