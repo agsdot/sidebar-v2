@@ -37,15 +37,15 @@ $tab-active-bg: #770911 !default;
         }
 
         @media(min-width:$threshold-sm) and (max-width:$threshold-md - 1px) {
-            left: $width-sm + $sidebar-margins;
+            left: $sidebar-margins;
         }
 
         @media(min-width:$threshold-md) and (max-width:$threshold-lg - 1px) {
-            left: $width-md + $sidebar-margins;
+            left: $sidebar-margins;
         }
 
         @media(min-width:$threshold-lg) {
-            left: $width-lg + $sidebar-margins;
+            left: $sidebar-margins;
         }
     }
 
@@ -64,15 +64,15 @@ $tab-active-bg: #770911 !default;
         }
 
         @media(min-width:$threshold-sm) and (max-width:$threshold-md - 1px) {
-            right: $width-sm + $sidebar-margins;
+            right: $sidebar-margins;
         }
 
         @media(min-width:$threshold-md) and (max-width:$threshold-lg - 1px) {
-            right: $width-md + $sidebar-margins;
+            right: $sidebar-margins;
         }
 
         @media(min-width:$threshold-lg) {
-            right: $width-lg + $sidebar-margins;
+            right: $sidebar-margins;
         }
     }
 

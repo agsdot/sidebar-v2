@@ -14,13 +14,13 @@
       transition: width 500ms; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebar {
-      width: 1005px; } }
+      width: calc(100% - 40px); } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar {
-      width: 1090px; } }
+      width: calc(100% - 40px); } }
   @media (min-width: 1200px) {
     .sidebar {
-      width: 1760px; } }
+      width: calc(100% - 40px); } }
 
 .sidebar-left {
   left: 0; }
@@ -100,18 +100,11 @@
   left: 0;
   right: 0;
   box-sizing: border-box;
-  padding: 10px 20px; }
+  padding: 10px 20px;
+  min-width: 100%;
+  max-width: 100%; }
   .sidebar-pane.active {
     display: block; }
-  @media (min-width: 768px) and (max-width: 991px) {
-    .sidebar-pane {
-      min-width: 965px; } }
-  @media (min-width: 992px) and (max-width: 1199px) {
-    .sidebar-pane {
-      min-width: 1050px; } }
-  @media (min-width: 1200px) {
-    .sidebar-pane {
-      min-width: 1720px; } }
 
 .sidebar-header {
   margin: -10px -20px 0;
@@ -171,15 +164,15 @@
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebar-left ~ .sidebar-map .olControlZoom,
     .sidebar-left ~ .sidebar-map .olScaleLine {
-      margin-left: 1019px; } }
+      margin-left: calc(100% - 40px)8px6px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar-left ~ .sidebar-map .olControlZoom,
     .sidebar-left ~ .sidebar-map .olScaleLine {
-      margin-left: 1104px; } }
+      margin-left: calc(100% - 40px)8px6px; } }
   @media (min-width: 1200px) {
     .sidebar-left ~ .sidebar-map .olControlZoom,
     .sidebar-left ~ .sidebar-map .olScaleLine {
-      margin-left: 1774px; } }
+      margin-left: calc(100% - 40px)8px6px; } }
 
 @media (min-width: 768px) {
   .sidebar-left.collapsed ~ .sidebar-map .olControlZoom,
@@ -199,17 +192,17 @@
     .sidebar-right ~ .sidebar-map .olControlAttribution,
     .sidebar-right ~ .sidebar-map .olControlPermalink,
     .sidebar-right ~ .sidebar-map .olControlMousePosition {
-      margin-right: 1019px; } }
+      margin-right: calc(100% - 40px)8px6px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar-right ~ .sidebar-map .olControlAttribution,
     .sidebar-right ~ .sidebar-map .olControlPermalink,
     .sidebar-right ~ .sidebar-map .olControlMousePosition {
-      margin-right: 1104px; } }
+      margin-right: calc(100% - 40px)8px6px; } }
   @media (min-width: 1200px) {
     .sidebar-right ~ .sidebar-map .olControlAttribution,
     .sidebar-right ~ .sidebar-map .olControlPermalink,
     .sidebar-right ~ .sidebar-map .olControlMousePosition {
-      margin-right: 1774px; } }
+      margin-right: calc(100% - 40px)8px6px; } }
 
 @media (min-width: 768px) {
   .sidebar-right.collapsed ~ .sidebar-map .olControlAttribution,
