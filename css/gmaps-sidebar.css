@@ -14,13 +14,13 @@
       transition: width 500ms; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebar {
-      width: calc(100% - 40px); } }
+      width: calc(100% - 200px); } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar {
-      width: calc(100% - 40px); } }
+      width: calc(100% - 200px); } }
   @media (min-width: 1200px) {
     .sidebar {
-      width: calc(100% - 40px); } }
+      width: calc(100% - 200px); } }
 
 .sidebar-left {
   left: 0; }
@@ -159,15 +159,15 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar-left ~ .sidebar-map .gm-style > div.gmnoprint[style*="left: 0px"] {
-    margin-left: calc(100% - 40px)20px !important; } }
+    margin-left: calc(100% - 200px)20px !important; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .sidebar-left ~ .sidebar-map .gm-style > div.gmnoprint[style*="left: 0px"] {
-    margin-left: calc(100% - 40px)20px !important; } }
+    margin-left: calc(100% - 200px)20px !important; } }
 
 @media (min-width: 1200px) {
   .sidebar-left ~ .sidebar-map .gm-style > div.gmnoprint[style*="left: 0px"] {
-    margin-left: calc(100% - 40px)20px !important; } }
+    margin-left: calc(100% - 200px)20px !important; } }
 
 @media (min-width: 768px) {
   .sidebar-left.collapsed ~ .sidebar-map .gm-style > div.gmnoprint[style*="left: 0px"] {
@@ -183,15 +183,15 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar-right ~ .sidebar-map .gm-style > div.gmnoprint[style*="right: 28px"] {
-    margin-right: calc(100% - 40px)20px !important; } }
+    margin-right: calc(100% - 200px)20px !important; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .sidebar-right ~ .sidebar-map .gm-style > div.gmnoprint[style*="right: 28px"] {
-    margin-right: calc(100% - 40px)20px !important; } }
+    margin-right: calc(100% - 200px)20px !important; } }
 
 @media (min-width: 1200px) {
   .sidebar-right ~ .sidebar-map .gm-style > div.gmnoprint[style*="right: 28px"] {
-    margin-right: calc(100% - 40px)20px !important; } }
+    margin-right: calc(100% - 200px)20px !important; } }
 
 @media (min-width: 768px) {
   .sidebar-right.collapsed ~ .sidebar-map .gm-style > div.gmnoprint[style*="right: 28px"] {

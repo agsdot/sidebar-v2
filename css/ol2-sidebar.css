@@ -14,13 +14,13 @@
       transition: width 500ms; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebar {
-      width: calc(100% - 40px); } }
+      width: calc(100% - 200px); } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar {
-      width: calc(100% - 40px); } }
+      width: calc(100% - 200px); } }
   @media (min-width: 1200px) {
     .sidebar {
-      width: calc(100% - 40px); } }
+      width: calc(100% - 200px); } }
 
 .sidebar-left {
   left: 0; }
@@ -164,15 +164,15 @@
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebar-left ~ .sidebar-map .olControlZoom,
     .sidebar-left ~ .sidebar-map .olScaleLine {
-      margin-left: calc(100% - 40px)8px6px; } }
+      margin-left: calc(100% - 200px)8px6px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar-left ~ .sidebar-map .olControlZoom,
     .sidebar-left ~ .sidebar-map .olScaleLine {
-      margin-left: calc(100% - 40px)8px6px; } }
+      margin-left: calc(100% - 200px)8px6px; } }
   @media (min-width: 1200px) {
     .sidebar-left ~ .sidebar-map .olControlZoom,
     .sidebar-left ~ .sidebar-map .olScaleLine {
-      margin-left: calc(100% - 40px)8px6px; } }
+      margin-left: calc(100% - 200px)8px6px; } }
 
 @media (min-width: 768px) {
   .sidebar-left.collapsed ~ .sidebar-map .olControlZoom,
@@ -192,17 +192,17 @@
     .sidebar-right ~ .sidebar-map .olControlAttribution,
     .sidebar-right ~ .sidebar-map .olControlPermalink,
     .sidebar-right ~ .sidebar-map .olControlMousePosition {
-      margin-right: calc(100% - 40px)8px6px; } }
+      margin-right: calc(100% - 200px)8px6px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar-right ~ .sidebar-map .olControlAttribution,
     .sidebar-right ~ .sidebar-map .olControlPermalink,
     .sidebar-right ~ .sidebar-map .olControlMousePosition {
-      margin-right: calc(100% - 40px)8px6px; } }
+      margin-right: calc(100% - 200px)8px6px; } }
   @media (min-width: 1200px) {
     .sidebar-right ~ .sidebar-map .olControlAttribution,
     .sidebar-right ~ .sidebar-map .olControlPermalink,
     .sidebar-right ~ .sidebar-map .olControlMousePosition {
-      margin-right: calc(100% - 40px)8px6px; } }
+      margin-right: calc(100% - 200px)8px6px; } }
 
 @media (min-width: 768px) {
   .sidebar-right.collapsed ~ .sidebar-map .olControlAttribution,

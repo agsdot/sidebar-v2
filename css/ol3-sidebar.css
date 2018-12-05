@@ -14,13 +14,13 @@
       transition: width 500ms; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebar {
-      width: calc(100% - 40px); } }
+      width: calc(100% - 200px); } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar {
-      width: calc(100% - 40px); } }
+      width: calc(100% - 200px); } }
   @media (min-width: 1200px) {
     .sidebar {
-      width: calc(100% - 40px); } }
+      width: calc(100% - 200px); } }
 
 .sidebar-left {
   left: 0; }
@@ -161,13 +161,13 @@
       transition: margin-left 500ms; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .sidebar-left ~ .sidebar-map .ol-zoom, .sidebar-left ~ .sidebar-map .ol-scale-line {
-      margin-left: calc(100% - 40px)6px6px; } }
+      margin-left: calc(100% - 200px)6px6px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar-left ~ .sidebar-map .ol-zoom, .sidebar-left ~ .sidebar-map .ol-scale-line {
-      margin-left: calc(100% - 40px)6px6px; } }
+      margin-left: calc(100% - 200px)6px6px; } }
   @media (min-width: 1200px) {
     .sidebar-left ~ .sidebar-map .ol-zoom, .sidebar-left ~ .sidebar-map .ol-scale-line {
-      margin-left: calc(100% - 40px)6px6px; } }
+      margin-left: calc(100% - 200px)6px6px; } }
 
 @media (min-width: 768px) {
   .sidebar-left.collapsed ~ .sidebar-map .ol-zoom, .sidebar-left.collapsed ~ .sidebar-map .ol-scale-line {
@@ -186,17 +186,17 @@
     .sidebar-right ~ .sidebar-map .ol-rotate,
     .sidebar-right ~ .sidebar-map .ol-attribution,
     .sidebar-right ~ .sidebar-map .ol-full-screen {
-      margin-right: calc(100% - 40px)6px6px; } }
+      margin-right: calc(100% - 200px)6px6px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .sidebar-right ~ .sidebar-map .ol-rotate,
     .sidebar-right ~ .sidebar-map .ol-attribution,
     .sidebar-right ~ .sidebar-map .ol-full-screen {
-      margin-right: calc(100% - 40px)6px6px; } }
+      margin-right: calc(100% - 200px)6px6px; } }
   @media (min-width: 1200px) {
     .sidebar-right ~ .sidebar-map .ol-rotate,
     .sidebar-right ~ .sidebar-map .ol-attribution,
     .sidebar-right ~ .sidebar-map .ol-full-screen {
-      margin-right: calc(100% - 40px)6px6px; } }
+      margin-right: calc(100% - 200px)6px6px; } }
 
 @media (min-width: 768px) {
   .sidebar-right.collapsed ~ .sidebar-map .ol-rotate,
