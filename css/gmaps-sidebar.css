@@ -107,15 +107,18 @@
     display: block; }
 
 .sidebar-header {
-  margin: -10px -20px 0;
-  height: 40px;
-  padding: 0 20px;
+  margin: 0 0 15px;
+  height: auto;
+  padding: 0 0 0 15px;
   line-height: 40px;
   font-size: 14.4pt;
   color: #000;
-  background-color: #2a2121; }
+  background-color: #2a2121;
+  float: left;
+  width: 100%;
+  box-sizing: border-box; }
   .sidebar-right .sidebar-header {
-    padding-left: 40px; }
+    padding-left: 15px; }
 
 .sidebar-close {
   position: absolute;

@@ -215,16 +215,24 @@ $move-map-in-xs: true !default;
 }
 
 .sidebar-header {
-    margin: (-$content-padding-vertical) (-$content-padding-horizontal) 0;
-    height: $tab-size;
-    padding: 0 $content-padding-horizontal;
+    //margin: (-$content-padding-vertical) (-$content-padding-horizontal) 0;
+    //height: $tab-size;
+    margin: 0 0 15px;
+    height: auto;
+    padding: 0 0 0 15px;
     line-height: $tab-size;
     font-size: $tab-font-size * 1.2;
     color: $header-fg;
     background-color: $header-bg;
 
+    //
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+
     .sidebar-right & {
-        padding-left: $tab-size;
+        //padding-left: $tab-size;
+        padding-left: 15px;
     }
 }
 
