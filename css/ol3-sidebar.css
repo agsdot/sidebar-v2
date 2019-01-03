@@ -95,6 +95,13 @@
   .sidebar.collapsed > .sidebar-content {
     overflow-y: hidden; }
 
+.sidebar-inner {
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  overflow: auto; }
+
 .sidebar-pane {
   display: none;
   left: 0;
